@@ -1,14 +1,12 @@
-# library(stringr)
-
 # Welcome to Chaotic Neutral, the DnD character randomiser
 
 data <- readRDS('data.Rds')
 
 # First, list any specific exclusions here, otherwise leave empty.
 
-excluded_race <- c('h')
-excluded_class <- c('h')
-excluded_background <- c('h')
+excluded_race <- c(' ')
+excluded_class <- c(' ')
+excluded_background <- c(' ')
 
 # Now randomise 
 # seed <- set.seed(42069)
